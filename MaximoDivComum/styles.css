@@ -82,3 +82,12 @@ button:active {
 .hidden {
     display: none;
 }
+
+.logo-universidade {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    z-index: 1000;
+}

@@ -1,5 +1,5 @@
 function isPrime(num) {
-    if (num <= 1){
+    if (num <= 1) {
         return false;
     }
 
@@ -12,13 +12,13 @@ function isPrime(num) {
     return true;
 }
 
+document.getElementById("verificar").addEventListener("click", function() {
+    let numero = parseInt(document.getElementById("numero").value);
+    let resultado = document.getElementById("resultado");
 
-let numero = parseInt(prompt("Digite um número:"));
-
-
-let resultado = document.getElementById("resultado");
-if (isPrime(numero)) {
-    resultado.textContent = numero + " é primo.";
-} else {
-    resultado.textContent = numero + " não é primo.";
-}
+    if (isPrime(numero)) {
+        resultado.textContent = numero + " é primo.";
+    } else {
+        resultado.textContent = numero + " não é primo.";
+    }
+});
