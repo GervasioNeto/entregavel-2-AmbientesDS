@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, green, #ffcc33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #ff6b6b;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #ff4757;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    padding: 15px;
+    background-color: #f3e5f5;
+    border-radius: 8px;
+    word-wrap: break-word;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-voltar {
+    background-color: #0072ff;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-voltar:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
+}
+
+.logo-universidade {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    z-index: 1000;
+}
