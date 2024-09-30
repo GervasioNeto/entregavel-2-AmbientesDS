@@ -21,4 +21,4 @@ Nenhuma biblioteca ou framework adicional foi utilizada.
 ## Instruções de Instalação
 1. Clone o repositório em sua máquina local.
    ```bash
-   git clone https://github.com/GervasioNeto/entregavel-2-AmbientesDS.git
+   git clone https://github.com/GervasioNeto/entregavel-2-Front-end-JS.git
