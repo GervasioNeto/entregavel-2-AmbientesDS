@@ -27,7 +27,6 @@ document.getElementById("verificarButton").addEventListener("click", function() 
     resultadoDiv.classList.remove("hidden");
 });
 
-// Botão para voltar à página principal
 document.getElementById("voltarButton").addEventListener("click", function() {
     window.location.href = "../index.html"; // Altere o caminho se necessário
 });
