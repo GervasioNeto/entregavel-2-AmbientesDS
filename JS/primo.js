@@ -28,5 +28,5 @@ document.getElementById("verificarButton").addEventListener("click", function() 
 });
 
 document.getElementById("voltarButton").addEventListener("click", function() {
-    window.location.href = "../index.html"; // Altere o caminho se necessário
+    window.location.href = "../index.html";
 });
